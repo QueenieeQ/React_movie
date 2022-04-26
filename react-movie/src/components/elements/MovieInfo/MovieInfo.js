@@ -27,7 +27,9 @@ const MovieInfo = props => {
             clickable={false}
           />
           
-          <div className="rmdb-movieinfo-text">
+          {/* <FontAwesome className="fa-film" name="film" size="5x" /> */}
+        </div>
+        <div className="rmdb-movieinfo-text">
           {/* <h1>Hello</h1> */}
           <p>Hello</p>
             <h1>{props.movie.title}</h1>
@@ -59,8 +61,6 @@ const MovieInfo = props => {
               );
             })}
           </div>
-          {/* <FontAwesome className="fa-film" name="film" size="5x" /> */}
-        </div>
       </div>
     </div>
   );
